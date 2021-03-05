@@ -120,7 +120,7 @@ header ul li a {
     background-size: 100%;
     background-position: right;
     background-repeat: no-repeat;
-    height: 475px;
+    height: 430px;
 }
 
 .hubspot-button-2 {
@@ -153,6 +153,7 @@ header ul li a {
     font-size: 10px;
 }
 
+
 .wait-zone {
     height: 60px;
     background-color: rgb(187, 233, 228);
@@ -161,7 +162,7 @@ header ul li a {
 }
 
 .light-background {
-    background-color:rgb(231, 253, 255);
+    background-color:rgb(246, 255, 254);
 }
 
 .cubo-img {
@@ -175,17 +176,84 @@ header ul li a {
     font-size: 18x;
     color: rgba(51,71,91,255);
     width: 75%;
-    padding: 10px;
+    padding: 10px 0 30px 0;
     margin: auto;
     text-align: center;
 }
 
 .text-align p {
-    padding: 10px 10px 5px 19px;
+    padding-top: 15px;
     color: rgba(51,71,91,255);
     font-size: 13px;
 }
 
 
 
+.wrapper {
+    width: 70%;
+    height: 100%;
+    margin: auto;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+}
+
+.row {
+    padding: 65px;
+}
+
+.row-left {
+    width: 34%;
+    padding: 0 30px;
+}
+
+.hubspot-button-3 {
+    background-color:rgba(254,119,90,255);
+    color: rgb(255, 255, 255);
+    padding: 15px 35px;
+    border-radius: 5px;
+    border: none;
+    margin-top: 20px;
+   }
+
+.row-right {
+    width: 66%;
+}
+
+
+.text-row-right h2 {
+    color: rgba(51,71,91,255);
+    font-size: 20px;
+    text-align: left;
+    padding-left: 10px;
+}
+
+.text-row-right p {
+    color: rgba(51,71,91,255);
+    font-size: 12px;
+    text-align: left;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 10px;
+}
+
+.text-row-right h3 {
+    color: rgba(51,71,91,255);
+    font-size: 20px;
+    padding-right: 30px;
+    display: inline-block;
+}
+
+.middle-hr {
+    display: inline-block;
+    border-top: 2px solid rgb(112, 112, 112);
+    width: 38%;
+    vertical-align: middle;
+}   
+
+.checkmark {
+    vertical-align: middle;
+    text-align: left;
+    padding-top:30px;
+    color: rgba(51,71,91,255);
+}
 
