@@ -157,9 +157,35 @@ header ul li a {
     height: 60px;
     background-color: rgb(187, 233, 228);
     border-top: 2px solid rgba(51,71,91,255);
-    border-bottom: 2px solidrgba(51,71,91,255);
-    ;
+    border-bottom: 2px solid rgba(51,71,91,255);
 }
+
+.light-background {
+    background-color:rgb(231, 253, 255);
+}
+
+.cubo-img {
+    width: 100%;
+    object-fit: contain;
+    height: 200px;
+    padding-top: 20px;
+}
+
+.text-align {
+    font-size: 18x;
+    color: rgba(51,71,91,255);
+    width: 75%;
+    padding: 10px;
+    margin: auto;
+    text-align: center;
+}
+
+.text-align p {
+    padding: 10px 10px 5px 19px;
+    color: rgba(51,71,91,255);
+    font-size: 13px;
+}
+
 
 
 
