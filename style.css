@@ -19,7 +19,7 @@ nav .nav-l {
 
 header {
     background-color: rgb(244, 249, 253);
-    height: 80px;
+    height: 70px;
 }
 
 header nav {
@@ -53,7 +53,7 @@ header nav ul li {
     color: rgb(46, 46, 46);
 }
 
-ul li a {
+header ul li a {
     text-decoration: none;
     color: rgb(46, 46, 46);
     border-left: 1px solid rgb(139, 147, 151);
@@ -83,4 +83,29 @@ ul li a {
     border-radius: 5px;
     border: none;
    }
-   
+
+   .logo {
+       padding-top: 15px;
+   }
+
+   .center-nav-left {
+       padding-top: 15px;
+   }
+
+   main nav ul li {
+       display: inline-block;
+   }
+
+   main ul li a {
+       text-decoration: none;
+       color: rgb(46, 46, 46);
+       font-size: 13px;
+   }
+
+   .selector-no {
+    border: none;
+    background-color: transparent;
+    margin-right: 10px;
+    color: rgb(46, 46, 46);
+    -webkit-appearance: none;
+}
