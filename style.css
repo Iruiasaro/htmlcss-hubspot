@@ -13,7 +13,7 @@ html {
     margin:auto;    
 }
 
-nav .top.nav {
+nav .nav-l {
     text-decoration: none;
 }
 
@@ -36,6 +36,10 @@ header nav ul li {
     float: left;
 }
 
+.f-right {
+    float: right;
+}
+
 .clearfix::after {
     content: "";
     display: table;
@@ -55,3 +59,28 @@ ul li a {
     border-left: 1px solid rgb(139, 147, 151);
     padding: 0 0 5px 15px;
 }
+
+.search-button {
+    border:none;
+    padding: 10px;
+    background-color:transparent;
+    margin-right: 10px;
+}
+
+.login-button {
+    background-color: rgb(255, 255, 255);
+    color: rgba(254,119,90,255);
+    border: 1px solid rgba(254,119,90,255);
+    padding: 10px;
+    margin-right: 20px;
+    border-radius: 5px;
+   }
+
+   .hubspot-button {
+    background-color:rgba(254,119,90,255);
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+   }
+   
