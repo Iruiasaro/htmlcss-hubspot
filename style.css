@@ -11,7 +11,7 @@ html {
 .container {
     width: 1024px;
     margin:auto;    
-}
+}    
 
 nav .nav-l {
     text-decoration: none;
@@ -85,7 +85,8 @@ header ul li a {
    }
 
    .hubspot {
-       padding: 15px;
+       padding-top: 15px;
+       padding-bottom:15px;
    }
 
    .logo {
@@ -187,8 +188,6 @@ header ul li a {
     font-size: 13px;
 }
 
-
-
 .wrapper {
     width: 70%;
     height: 100%;
@@ -196,6 +195,7 @@ header ul li a {
     text-align: center;
     background-color: rgb(255, 255, 255);
 }
+
 
 .row {
     padding: 65px;
@@ -218,7 +218,6 @@ header ul li a {
 .row-right {
     width: 66%;
 }
-
 
 .text-row-right h2 {
     color: rgba(51,71,91,255);
@@ -255,5 +254,101 @@ header ul li a {
     text-align: left;
     padding-top:30px;
     color: rgba(51,71,91,255);
+}
+
+.col {
+    width: 33%;
+    padding: 30px;
+}
+
+
+.img-container {
+    height: 120px;
+    margin: auto;
+    width: 50%;
+    margin-bottom: 20px;
+}
+
+.hr-col {
+    border-top: 1px solid rgb(112, 112, 112);
+    width: 90%;
+    margin: auto;
+    margin-top: 45px;
+    margin-bottom: 45px;
+}   
+
+.checkmark-row {
+    padding-top: 25px;
+    padding-bottom: 20px;
+    text-align: left;
+    color: rgba(51,71,91,255);
+}
+
+.row-wrap {
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.aqua-background {
+    background-color: rgba(0,185,169,255)
+    ;
+    height: 660px;
+}
+
+.white-text {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    width: 65%;
+    margin: auto;
+    padding: 30px 0 10px 0;
+}
+
+.big-white-text {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    width: 60%;
+    margin: auto;
+    padding: 30px 0 10px 0;
+}
+
+.little-white-text {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    width: 65%;
+    margin: auto;
+    padding: 30px 0 10px 0;
+}
+
+.aqua-background .table-wrap {
+    width: 70%;
+    color: white;
+    text-align: center;
+    margin:auto;
+}
+
+.border-right {
+    border-right: 1px solid white;
+}
+
+.border-bot {
+    border-bottom: 1px solid white;
+}
+
+
+.wrap-item {
+    width: 25%;
+    margin-top: 20px;
+}
+
+.wrap-item > * {
+    margin: 20px 0;
+}
+
+.wrap-item h2 {
+    font-size: 32px;
+}
+
+.wrap-item p {
+    font-size: 10px;
 }
 
