@@ -292,7 +292,6 @@ header ul li a {
 .aqua-background {
     background-color: rgba(0,185,169,255)
     ;
-    height: 660px;
 }
 
 .white-text {
@@ -323,7 +322,7 @@ header ul li a {
     width: 70%;
     color: white;
     text-align: center;
-    margin:auto;
+    margin: auto;
 }
 
 .border-right {
@@ -337,7 +336,6 @@ header ul li a {
 
 .wrap-item {
     width: 25%;
-    margin-top: 20px;
 }
 
 .wrap-item > * {
@@ -350,5 +348,36 @@ header ul li a {
 
 .wrap-item p {
     font-size: 10px;
+    
+}
+
+.row-middle {
+    margin-top: 40px;
+    margin-left: 120px;
+    color: rgba(51,71,91,255);
+}
+
+
+.row-middle-left h2 {
+    font-size: 40px;
+}
+
+.row-middle-left p {
+    font-size: 12px;
+    width: 65%;
+}
+
+.row-middle-left {
+    width: 33%;
+}
+
+.row-middle-right {
+    width: 66%;
+}
+
+.img-logo {
+    vertical-align: middle;
+    width: 14%;
+    padding:10px;
 }
 
