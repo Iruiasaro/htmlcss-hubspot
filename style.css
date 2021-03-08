@@ -381,3 +381,85 @@ header ul li a {
     padding:10px;
 }
 
+.row-down {
+    margin-top: 80px;
+    color: rgba(51,71,91,255);
+    width: 40%;
+    margin-left: -80px;
+}
+
+.row-down h2 {
+    font-size: 30px;
+}
+
+.row-down p {
+    font-size: 15px;
+}
+
+.row-down-small-p {
+    font-size: 11px;
+    margin-top: 30px;
+}
+
+.gray-background {
+    margin-top: 25px;
+    background-color: rgba(50,73,91,255);
+    height: 800px;
+    color: white;
+}
+
+.container-footer {
+    width: 1024px;
+    margin:auto;   
+    width: 70%;
+}
+.container-footer ul li {
+    list-style-type: none;
+}
+
+.container-footer ul li a {
+    text-decoration: none;
+    color: white;
+    margin-top: 20px;
+}
+
+.col-footer {
+    padding-top: 39px;
+    width: 25%;
+}
+
+.col-footer h4 {
+    padding-bottom: 25px;
+}
+
+.col-footer li {
+    padding-bottom:20px;
+}
+
+.languages {
+    text-align: center;    
+}
+
+.lang-foot {
+    padding-top: 50px;
+    display: inline-block;
+    padding-bottom: 20px;
+    margin-left: 15px;
+}
+
+.col-footer-right li {
+    padding-top:39px;
+    list-style-type: none;
+    display: inline-block;
+    padding-left: 15px;
+}
+
+.col-footer li button {
+    background-color:rgba(218,222,224,255);
+    color: rgba(51,71,91,255);
+    padding: 15px 20px;
+    border-radius: 5px;
+    border: none;
+    margin-top: 20px;
+}
+
