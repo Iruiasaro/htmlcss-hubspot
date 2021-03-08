@@ -305,7 +305,6 @@ header ul li a {
 .big-white-text {
     color: rgb(255, 255, 255);
     text-align: center;
-    width: 60%;
     margin: auto;
     padding: 30px 0 10px 0;
 }
@@ -313,13 +312,11 @@ header ul li a {
 .little-white-text {
     color: rgb(255, 255, 255);
     text-align: center;
-    width: 65%;
     margin: auto;
     padding: 30px 0 10px 0;
 }
 
 .aqua-background .table-wrap {
-    width: 70%;
     color: white;
     text-align: center;
     margin: auto;
@@ -384,8 +381,6 @@ header ul li a {
 .row-down {
     margin-top: 80px;
     color: rgba(51,71,91,255);
-    width: 40%;
-    margin-left: -80px;
 }
 
 .row-down h2 {
@@ -399,6 +394,19 @@ header ul li a {
 .row-down-small-p {
     font-size: 11px;
     margin-top: 30px;
+}
+
+.row-down-left {
+    width: 40%;
+}
+
+.row-down-right {
+    width: 50%;
+    text-align: right;
+}
+
+.woman-img {
+    width:40%;
 }
 
 .gray-background {
