@@ -463,3 +463,35 @@ header ul li a {
     margin-top: 20px;
 }
 
+.fa {
+    font-size: 20px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+  }
+
+  .fa-facebook {
+    color: white;
+  }
+
+  .fa-instagram {
+    color: white;
+    margin-left: 12px;
+}
+
+.fa-youtube {
+    color: white;
+    margin-left: 12px;
+}
+
+  .fa-twitter {
+    color: white;
+    margin-left: 12px;
+  }
+
+  .fa-linkedin {
+      color: white;
+    margin-left: 12px;
+  }
+
+  
