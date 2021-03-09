@@ -461,7 +461,7 @@ main ul li a {
 
 .container-footer ul li a {
     text-decoration: none;
-    color: white;
+    color: rgb(255, 255, 255);
     margin-top: 20px;
 }
 
@@ -535,4 +535,16 @@ main ul li a {
   .fa-linkedin {
       color: white;
     margin-left: 12px;
+  }
+
+  footer h4 {
+      font-size: 14px;
+  }
+
+  footer ul li {
+      font-size: 12px;
+  }
+
+  footer p {
+      font-size: 13px;
   }
