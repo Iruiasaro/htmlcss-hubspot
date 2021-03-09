@@ -196,9 +196,9 @@ header ul li a {
     background-color: rgb(255, 255, 255);
 }
 
-
 .row {
     padding: 65px;
+    
 }
 
 .row-left {
@@ -216,7 +216,8 @@ header ul li a {
    }
 
 .row-right {
-    width: 66%;
+    width: 65%;
+    margin-left: 4px;
 }
 
 .text-row-right h2 {
@@ -256,10 +257,16 @@ header ul li a {
     color: rgba(51,71,91,255);
 }
 
+.checkmark span {
+    border-radius: 50px;
+    background-color: rgba(254,120,91,255);
+    color:rgb(255, 255, 255);
+}
+
 .col {
     width: 33%;
     padding: 30px;
-}
+    }
 
 
 .img-container {
@@ -282,6 +289,12 @@ header ul li a {
     padding-bottom: 20px;
     text-align: left;
     color: rgba(51,71,91,255);
+}
+
+.checkmark-row span {
+    border-radius: 50px;
+    background-color: rgba(254,120,91,255);
+    color:rgb(255, 255, 255);
 }
 
 .row-wrap {
@@ -412,14 +425,14 @@ header ul li a {
 .gray-background {
     margin-top: 25px;
     background-color: rgba(50,73,91,255);
-    height: 800px;
-    color: white;
+    height: 700px;
+    color: rgb(255, 255, 255);
 }
 
 .container-footer {
     width: 1024px;
     margin:auto;   
-    width: 70%;
+    width: 60%;
 }
 .container-footer ul li {
     list-style-type: none;
