@@ -32,6 +32,10 @@ header nav ul li {
     display: inline-block;
 }   
 
+header span {
+    margin-right: -10px;
+}
+
 .f-left {
     float: left;
 }
@@ -49,15 +53,22 @@ header nav ul li {
 .selector {
     border: none;
     background-color: transparent;
-    margin-right: 10px;
-    color: rgb(46, 46, 46);
+    color: rgba(51,71,91,255);
+
 }
+
+.fa-angle-down {
+    color: rgba(51,71,91,255);
+    padding-right: 25px;
+    vertical-align: middle;
+}   
 
 header ul li a {
     text-decoration: none;
-    color: rgb(46, 46, 46);
     border-left: 1px solid rgb(139, 147, 151);
     padding: 0 0 5px 15px;
+    color: rgba(51,71,91,255);
+
 }
 
 .search-button {
@@ -76,44 +87,37 @@ header ul li a {
     border-radius: 5px;
    }
 
-   .hubspot-button {
-    background-color:rgba(254,119,90,255);
-    color: rgb(255, 255, 255);
-    padding: 10px;
-    border-radius: 5px;
-    border: none;
-   }
-
-   .hubspot {
-       padding-top: 15px;
-       padding-bottom:15px;
-   }
-
-   .logo {
-       padding-top: 15px;
-   }
-
-   .center-nav-left {
-       padding-top: 15px;
-   }
-
-   main nav ul li {
-       display: inline-block;
-   }
-
-   main ul li a {
-       text-decoration: none;
-       color: rgb(46, 46, 46);
-       font-size: 13px;
-   }
-
-   .selector-no {
-    border: none;
-    background-color: transparent;
-    margin-right: 10px;
-    color: rgb(46, 46, 46);
-    -webkit-appearance: none;
+.hubspot-button {
+background-color:rgba(254,119,90,255);
+color: rgb(255, 255, 255);
+padding: 10px;
+border-radius: 5px;
+border: none;
 }
+
+.hubspot {
+    padding-top: 15px;
+    padding-bottom:15px;
+}
+
+.logo {
+    padding-top: 15px;
+}
+
+.center-nav-left {
+    padding-top: 15px;
+}
+
+main nav ul li {
+    display: inline-block;
+}
+
+main ul li a {
+    text-decoration: none;
+    color: rgb(46, 46, 46);
+    font-size: 13px;
+}
+
 
 .hero {
     margin-top: 50px;
@@ -121,7 +125,7 @@ header ul li a {
     background-size: 100%;
     background-position: right;
     background-repeat: no-repeat;
-    height: 430px;
+    height: 450px;
 }
 
 .hubspot-button-2 {
@@ -166,6 +170,11 @@ header ul li a {
     background-color:rgb(246, 255, 254);
 }
 
+.container-sect {
+    margin:auto;   
+    width: 70%;
+}
+
 .cubo-img {
     width: 100%;
     object-fit: contain;
@@ -189,11 +198,18 @@ header ul li a {
 }
 
 .wrapper {
-    width: 70%;
+    width: 75%;
     height: 100%;
-    margin: auto;
     text-align: center;
     background-color: rgb(255, 255, 255);
+    margin:auto;
+}
+
+.wrapper-col {
+    width: 75%;
+    height: 100%;
+    text-align: center;
+    margin:auto;
 }
 
 .row {
@@ -264,9 +280,11 @@ header ul li a {
 }
 
 .col {
-    width: 33%;
-    padding: 30px;
-    }
+    width: 31%;
+    padding: 28px;
+    background-color: rgb(255, 255, 255);
+    margin-left: 17px;
+}
 
 
 .img-container {
@@ -276,9 +294,10 @@ header ul li a {
     margin-bottom: 20px;
 }
 
+
 .hr-col {
-    border-top: 1px solid rgb(112, 112, 112);
-    width: 90%;
+    border-top: 1px solid rgb(51, 71, 91);
+    width: 100%;
     margin: auto;
     margin-top: 45px;
     margin-bottom: 45px;
@@ -300,6 +319,7 @@ header ul li a {
 .row-wrap {
     margin-top: 20px;
     margin-bottom: 40px;
+    margin-left: -15px;
 }
 
 .aqua-background {
@@ -432,8 +452,9 @@ header ul li a {
 .container-footer {
     width: 1024px;
     margin:auto;   
-    width: 60%;
+    width: 70%;
 }
+
 .container-footer ul li {
     list-style-type: none;
 }
@@ -484,6 +505,7 @@ header ul li a {
     margin-top: 20px;
 }
 
+
 .fa {
     font-size: 20px;
     width: 20px;
@@ -514,5 +536,3 @@ header ul li a {
       color: white;
     margin-left: 12px;
   }
-
-  
