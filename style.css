@@ -206,7 +206,7 @@ main ul li a {
 }
 
 .wrapper-col {
-    width: 75%;
+    width: 78%;
     height: 100%;
     text-align: center;
     margin:auto;
@@ -450,9 +450,8 @@ main ul li a {
 }
 
 .container-footer {
-    width: 1024px;
-    margin:auto;   
     width: 70%;
+    margin:auto;   
 }
 
 .container-footer ul li {
